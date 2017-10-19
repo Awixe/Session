@@ -2,8 +2,23 @@
     "name": "awixe/session",
     "type": "library",
     "description": "A session handler that acts as a wrapper",
+    "keywords": [],
+    "homepage": "https://github.com/Awixe/Session",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Nicholas English",
+            "email": "awixe443@gmail.com",
+            "homepage": "https://github.com/Awixe",
+            "role": "Backend Developer"
+        }
+    ],
     "require": {
         "php": "^7.0"
     }
-	
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
 }
