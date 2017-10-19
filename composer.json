@@ -2,7 +2,7 @@
     "name": "awixe/session",
     "type": "library",
     "description": "A session handler that acts as a wrapper",
-    "keywords": [],
+    "keywords": ["php", "php7", "php-library", "php-framework", "php-sessions"],
     "homepage": "https://github.com/Awixe/Session",
     "license": "GPL-3.0",
     "authors": [
