@@ -1,5 +1,6 @@
 {
     "name": "awixe/session",
+    "type": "library",
     "description": "A session handler that acts as a wrapper",
     "require": {
         "php": "^7.0"
