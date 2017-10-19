@@ -17,7 +17,6 @@ class Handler implements HandlerInterface
         if (!is_null($value)) {
             $_SESSION[$name] = $value;
         }
-        return;
     }
 
     public function get(string $name, $defaultReturnValue = null)
