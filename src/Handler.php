@@ -1,6 +1,6 @@
 <?php
 namespace Awixe\Module\Session;
-class Handler {
+class Handler implements HandlerInterface {
     public function set(string $name, $value = null) {
         if (!is_null($value)) {
             $_SESSION[$name] = $value;
