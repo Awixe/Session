@@ -1,4 +1,11 @@
 <?php
+/**
+ * Session module - A session handler that acts as a wrapper
+ * 
+ * @copyright (c) 2017 Nicholas English
+ * @license GPL-3.0
+ * @link    https://github.com/Awixe/Session/blob/master/LICENSE
+ */
 namespace Awixe\Module\Session;
 class Handler implements HandlerInterface {
     public function set(string $name, $value = null) {
