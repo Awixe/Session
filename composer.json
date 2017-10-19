@@ -1,1 +1,8 @@
-
+{
+    "name": "awixe/session",
+    "description": "A session handler that acts as a wrapper",
+    "require": {
+        "php": "^7.0"
+    }
+	
+}
