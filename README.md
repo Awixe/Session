@@ -16,4 +16,40 @@ composer require awixe/session
 ```
 Usage
 -----
+If you are using the awixe module adapter than you can access it through the app function
+
+For example:
+```php
+<?php
+// Require composer
+require __DIR__ . '/vendor/autoload.php';
+
+// session_start() is just for the example it is not required
+// in the framework just require the bootstrap file
+session_start();
+
+// Set a new session variable
+app('session')->set('hello', 'world');
+
+// Get a session variable
+if (app('session')->get('hello')) {
+    $output = [
+        app('session')->get('hello')
+    ];
+}
+
+// Delete a session variable
+app('session')->del('hello');
+
+// Print the result
+print_r($output);
+
+// Check to see if the variable is deleted
+if (app('session')->get('hello')) {
+    print(app('session')->get('hello'));
+} else {
+    var_dump(app('session')->get('hello'));
+}
+
+```
 
