@@ -1,3 +1,0 @@
-service_name: travis-ci
-coverage_clover: tests/code-coverage/clover.xml
-json_path: tests/code-coverage/coveralls-upload.json
