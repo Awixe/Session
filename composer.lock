@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4fa5420fec3606ef10df80aff75c1d01",
+    "packages": [
+        {
+            "name": "awixe/session",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Awixe/Session.git",
+                "reference": "34e1e2f76cc5ed8dd0ceac4b110c8f9ff476d3f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Awixe/Session/zipball/34e1e2f76cc5ed8dd0ceac4b110c8f9ff476d3f6",
+                "reference": "34e1e2f76cc5ed8dd0ceac4b110c8f9ff476d3f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Monolog": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nicholas English",
+                    "email": "awixe443@gmail.com",
+                    "homepage": "https://github.com/Awixe",
+                    "role": "Backend Developer"
+                }
+            ],
+            "description": "A session handler that acts as a wrapper",
+            "homepage": "https://github.com/Awixe/Session",
+            "keywords": [
+                "PHP7",
+                "php",
+                "php-framework",
+                "php-library",
+                "php-sessions"
+            ],
+            "time": "2017-10-19T04:28:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
