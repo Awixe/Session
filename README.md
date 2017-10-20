@@ -8,7 +8,7 @@ This module was designed as a wrapper so it could be injected into the pimple. I
 Install
 -------
 
-There are two ways you can install this module. One by using composer or by downloading directly.
+There are two ways you can install this module. By using composer or by downloading directly, but if you download it directly and requires more steps so we recommend you use composer to make it simple.
 
 With composer:
 ```sh
