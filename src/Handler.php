@@ -16,8 +16,10 @@ class Handler implements HandlerInterface
     {
         if (!is_null($value)) {
             $_SESSION[$name] = $value;
+
             return true;
         }
+
         return false;
     }
 
@@ -34,8 +36,10 @@ class Handler implements HandlerInterface
     {
         if (isset($_SESSION[$name])) {
             unset($_SESSION[$name]);
+
             return true;
         }
+
         return false;
     }
 }
