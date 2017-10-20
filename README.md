@@ -8,13 +8,12 @@ This module was designed as a wrapper so it could be injected into the pimple. I
 Install
 -------
 
-There are two ways you can install this module. By using composer or by downloading directly, but if you download it directly and requires more steps so we recommend you use composer to make it simple.
+There are two ways you can install this module. By using composer or by downloading directly, but if you download it directly and requires more steps you can view all the available downloads at https://github.com/Awixe/Session/releases so we recommend you use composer to make it simple.
 
 With composer:
 ```sh
 composer require awixe/session
 ```
-Direct download:
+Usage
+-----
 
-1. Goto the release page and choose a download and download it
-https://github.com/Awixe/Session/releases
