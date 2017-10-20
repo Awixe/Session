@@ -8,7 +8,7 @@ This module was designed as a wrapper so it could be injected into the pimple. I
 Install
 -------
 
-To install with composer:
+With composer:
 
 ```sh
 composer require awixe/session
