@@ -24,8 +24,7 @@ For example:
 // Require composer
 require __DIR__ . '/vendor/autoload.php';
 
-// session_start() is just for the example it is not required
-// in the framework just require the bootstrap file
+// Not required if the bootstrap file is required
 session_start();
 
 // Set a new session variable
@@ -33,6 +32,8 @@ app('session')->set('hello', 'world');
 
 // Get a session variable
 if (app('session')->get('hello')) {
+
+    // Save result
     $output = [
         app('session')->get('hello')
     ];
@@ -44,12 +45,54 @@ app('session')->del('hello');
 // Print the result
 print_r($output);
 
-// Check to see if the variable is deleted
 if (app('session')->get('hello')) {
     print(app('session')->get('hello'));
 } else {
     var_dump(app('session')->get('hello'));
 }
 
+?>
 ```
 
+If you are not use the awixe adapter then you hav to declare a new object to use it.
+
+For example:
+
+```php
+<?php
+// Require composer
+require __DIR__ . '/vendor/autoload.php';
+use Awixe\Module\Session\Handler;
+
+// Not required if the bootstrap file is required
+session_start();
+
+// Declare a new object
+$session = new Handler();
+
+// Set a new session variable
+$session->set('hello', 'world');
+
+// Get a session variable
+if ($session->get('hello')) {
+
+    // Save result
+    $output = [
+        $session->get('hello')
+    ];
+}
+
+// Delete a session variable
+$session->del('hello');
+
+// Print the result
+print_r($output);
+
+if ($session->get('hello')) {
+    print($session->get('hello'));
+} else {
+    var_dump($session->get('hello'));
+}
+
+?>
+```
