@@ -100,5 +100,4 @@ Conclusion
 -----
   - Framework: https://github.com/Awixe/Framework
   - Issues: https://github.com/Awixe/Session/issues
-  - Awixe: https://github.com/Awixe
   
