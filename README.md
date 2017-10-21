@@ -16,9 +16,10 @@ composer require awixe/session
 ```
 Usage
 -----
-If you are using the awixe module adapter than you can access it through the app function
+If you are using the awixe module adapter than you can access it through the app function else if you are not use the awixe adapter then you have to declare a new object to use it.
 
-For example:
+Example #1:
+
 ```php
 <?php
 // Require composer
@@ -54,9 +55,7 @@ if (app('session')->get('hello')) {
 ?>
 ```
 
-If you are not use the awixe adapter then you hav to declare a new object to use it.
-
-For example:
+Example #2:
 
 ```php
 <?php
