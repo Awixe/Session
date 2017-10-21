@@ -95,3 +95,6 @@ if ($session->get('hello')) {
 
 ?>
 ```
+
+Conclusion
+-----
